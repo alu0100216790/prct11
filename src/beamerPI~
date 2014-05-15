@@ -1,0 +1,146 @@
+\documentclass{beamer}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+
+
+
+
+
+
+\title{El Fascinante número  $\pi$}
+\author{Jesús M. Rodríguez Falcón}
+\institute{Facultad de Matemáticas\\
+ULL.}
+
+
+
+\usetheme{Madrid}
+
+
+\definecolor{violetaull}{RGB}{122,59,122} % changed this
+\definecolor{miazul}{RGB}{0,88,147} % changed this
+\definecolor{migris}{RGB}{56,61,66} % changed this
+
+
+\setbeamercolor*{palette primary}{use=structure,fg=white,bg=violetaull} 
+\setbeamercolor*{palette secundary}{use=structure,fg=white,bg=miazul} 
+\setbeamercolor*{palette tertiary}{use=structure,fg=white,bg=migris}
+
+
+
+\begin{document}
+
+%************************ *************** 
+
+  \begin{frame}
+  \titlepage
+
+  \end{frame}
+  
+  \begin{frame}{El comienzo...}
+  \begin{itemize}
+  
+  \item La relación entre la circunferencia y su diámetro es un número irracional.
+  
+  \begin{figure}[h]
+\centering
+
+\includegraphics[width=0.4\textwidth]{pi5.jpg}
+
+\end{figure}
+  \end{itemize}
+  \end{frame}
+%************************ ***************   
+  \begin{frame}{El Origen del símbolo $\Pi$}
+  \begin{itemize}
+  
+  \item El matemático William Jones utilizó por primera vez el 	símbolo en 	1706, pero el suizo Leonhard Euler fue quien lo generalizó, en 1737.
+  	\begin{figure}[h]
+      \centering
+      \includegraphics[width=0.3\textwidth]{Wiliam.jpg}
+      \includegraphics[width=0.2\textwidth]{Pi.jpg}
+       \includegraphics[width=0.2\textwidth]{Euler.jpg}
+      
+      
+    \end{figure}
+  
+  \end{itemize}
+  \end{frame}
+%************************ *************** 
+\begin{frame}{Record del mundo de memorización de $\Pi$.}
+  
+  \begin{columns}
+    \begin{column}{.5\linewidth}
+      \begin{block}{Record Actual}
+ El japonés Akira Haraguchi ha pulverizado el récord del mundo de recitar decimales del número Pi. Un total de 100.000 se ha aprendido de memoria, una retahíla que este psiquiatra de 60 años ha tardado 16 horas en recitar.
+     \begin{figure}[h]
+          \centering
+          \includegraphics[width=0.3\textwidth]{re.jpg}
+      \end{figure}
+     \end{block}
+    \end{column}
+    \begin{column}{.5\linewidth}
+      \begin{block}{Record Anterior}
+ La anterior marca, lograda por él mismo hace dos años, estaba en 83.431 decimales del cociente entre la longitud y el diametro de una circunferencia, número infinito que se conoce por Pi.\\
+ \bf{Tampoco creo que sea nada excepcional, simplemente he vaciado mi memoria de todo lo demás y he recitado los números}
+     \begin{figure}[h]
+          \centering
+          \includegraphics[width=0.1\textwidth]{re.jpg}
+      \end{figure}
+     \end{block}
+    \end{column}
+   \end{columns}
+\end{frame}
+  
+%************************ *************** 
+\begin{frame}
+\frametitle{Irracionalidad de $\pi$}
+\framesubtitle{The proof uses \textit{reductio ad absurdum}.}
+\begingroup
+\setbeamercolor{block title}{bg=violetaull,fg=white}%bg=background, fg= foreground
+\setbeamercolor{block body}{bg=yellow,fg=black}%bg=background, fg= foreground
+\begin{block}{Teorema:}
+
+Se puede demostrar que $\pi$ es irracional fácilmente si éste es expresable mediante una fracción continua infinita. Dado que cada fracción continua finita se puede expresar mediante un número racional y viceversa,1 si $\pi$ fuera racional, debería existir tal fracción continua. Veamos que tal fracción continua es infinita:
+\end{block}
+
+\endgroup
+\begingroup
+\setbeamercolor{block title}{bg=green,fg=blue}%bg=background, fg= foreground
+\setbeamercolor{block body}{bg=yellow,fg=black}%bg=background, fg= foreground
+\begin{block}{Demostración:}
+\begin{enumerate}
+\item<1-| alert@1> arctg
+
+\item<2-> Let $q$ be the product of the first $p$ numbers.
+\item<3-> Then $q+1$ is not divisible by any of them.
+\item<1-> But $q + 1$ is greater than $1$, thus divisible by some prime
+number not in the first $p$ numbers.\qedhere
+\end{enumerate}
+\end{block}
+\endgroup
+\end{frame}
+
+%*******************************************
+\begin{frame}
+  \begin{columns}
+    \begin{column}{.5\linewidth}
+      \begin{block}{Some equation}
+         \begin{align*}
+           a &= b\\
+             &= d\\
+             &= f
+         \end{align*}
+      \end{block}
+    \end{column}
+    \begin{column}{.5\linewidth}
+      \begin{tabular}{cc}\hline
+        some text & some text \\\hline
+      \end{tabular}
+    \end{column}
+  \end{columns}
+\end{frame}
+  
+
+\end{document}

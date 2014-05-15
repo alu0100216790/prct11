@@ -1,0 +1,111 @@
+\documentclass{beamer}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{hyperref}
+
+
+\title{El Número  $\pi$}
+\author{ YURENA SAAVEDRA BETANCORT}
+\institute{Facultad de Matemáticas\\
+ULL.}
+
+
+
+\usetheme{Madrid}
+
+
+\definecolor{violetaull}{RGB}{122,59,122} % changed this
+\definecolor{miazul}{RGB}{0,88,147} % changed this
+\definecolor{migris}{RGB}{56,61,66} % changed this
+
+
+\setbeamercolor*{palette primary}{use=structure,fg=white,bg=violetaull} 
+\setbeamercolor*{palette secundary}{use=structure,fg=white,bg=miazul} 
+\setbeamercolor*{palette tertiary}{use=structure,fg=white,bg=migris}
+
+\newcommand{\QED}{\hfill \textit{\textbf{Q.E.D.}}}
+
+\begin{document}
+
+%************************ *************** 
+
+  \begin{frame}
+  \begin{figure}
+      \centering
+  \includegraphics[width=0.3\textwidth]{pi2.jpg}
+  \includegraphics[width=0.3\textwidth]{pi2.jpg}
+  \includegraphics[width=0.3\textwidth]{pi2.jpg}
+  \titlepage
+  \end{figure}
+
+  \end{frame}
+  
+  
+  \begin{frame}{Introducción:}
+  \begin{itemize}
+  
+  \item $\pi$ se define como la relación entre la circunferencia y su diámetro es un número irracional.
+  \item La notación con la letra griega $\pi$ proviene de la inicial de las palabras de origen griego.
+  Notación que fue utilizada primero por William Oughtred (1574-1660) y cuyo uso fue propuesto por el matemático galés William Jones (1675-1749); aunque fue el matemático Leonhard Euler, con su obra Introducción al cálculo infinitesimal, de 1748, quien la popularizó. Fue conocida anteriormente como constante de Ludolph (en honor al matemático Ludolph van Ceulen) o como constante de Arquímedes (que no se debe confundir con el número de Arquímedes). Jones plantea el nombre y símbolo de este número, en 1706 y Euler empieza a difundirlo, en 1736.
+  
+  
+  \end{itemize}
+  \end{frame}
+%************************ ***************   
+  \begin{frame}{El Origen del símbolo $\Pi$}
+  La búsqueda del mayor número de decimales del número $\pi$ ha supuesto un esfuerzo constante de numerosos científicos a lo largo de la historia. Algunas aproximaciones históricas de  $\pi$ son las siguientes.
+  \begin{itemize}
+  
+  \item \textbf{Antiguo Egipto} 
+  El valor aproximado de $\pi$ en las antiguas culturas se remonta a la época del escriba egipcio Ahmes en el año 1800 a. C., descrito en el papiro Rhind donde se emplea un valor aproximado de $\pi$ afirmando que el área de un círculo es similar a la de un cuadrado cuyo lado es igual al diámetro del círculo disminuido en $\frac{1}{9}$; es decir, igual a $\frac{8}{9}$ del diámetro. En notación moderna:
+  
+  	\begin{figure}[h]
+      \centering
+      \includegraphics[width=0.3\textwidth]{forpi.png}
+      \hspace {2cm}
+       \includegraphics[width=0.3\textwidth]{forpi2.png}
+    \end{figure}
+    
+  \end{itemize}
+  \end{frame}
+%************************ *************** 
+\begin{frame}{Record del mundo de memorización de $\Pi$.}
+  \begin{itemize}
+  \item \textbf{China} El cálculo de pi fue una atracción para los matemáticos expertos de todas las culturas. Hacia 120, el astrónomo chino Zhang Heng (78-139) fue uno de los primeros en usar la aproximación $\sqrt {10}$, que dedujo de la razón entre el volumen de un cubo y la respectiva esfera inscrita.
+
+A finales del siglo V, el matemático y astrónomo chino Zu Chongzhi calculó el valor de $\Pi$ en 3,1415926, al que llamó «valor por defecto», y 3,1415927, «valor por exceso», y dio dos aproximaciones racionales de $\pi$ , y $\frac{22}{7}$ , $\frac{355}{113}$, muy conocidas ambas, siendo la última aproximación tan buena y precisa que no fue igualada hasta más de nueve siglos después, en el siglo XV.
+\end{itemize}
+\end{frame}
+  
+
+%********************************************
+\begin{frame}
+\frametitle{Bibliografia:}
+\framesubtitle{Libros y enlaces}
+\begingroup
+\setbeamercolor{block title}{bg=violetaull,fg=yellow}%bg=background, fg= foreground
+\setbeamercolor{block body}{bg=violetaull,fg=yellow}%bg=background, fg= foreground
+  
+  \begin{columns}
+    \begin{column}{1\linewidth}
+     \begin{block}{Enlaces:}
+      
+\begin{thebibliography}{99}
+
+\bibitem{TAC} Información sobre $\pi$  \\
+
+\href{http://es.wikipedia.org/wiki/Número}{$\pi$ en Wikipedia}
+
+
+\end{thebibliography}
+
+\end{block}
+\end{column}
+\end{columns}
+\endgroup
+
+\end{frame}
+
+
+\end{document}
